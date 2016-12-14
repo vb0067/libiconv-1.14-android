@@ -2,6 +2,9 @@ LOCAL_PATH := $(call my-dir)
 
 #libiconv.so
 LOCAL_MODULE := iconv
+
+LOCAL_MODULE_FILENAME:=libiconv
+
 LOCAL_CFLAGS := \
   -Wno-multichar \
   -DANDROID \
